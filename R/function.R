@@ -11,7 +11,7 @@ NULL
 #' 
 #' @export 
 #' 
-#' @importFrom stringr str_replace
+###### @importFrom stringr str_replace
 #'
 #' @examples 
 #' 
@@ -25,7 +25,16 @@ NULL
 
 funzione <- function (x=NULL,...) {	
 	
-	out <- x
+	if (is.null(x)) {
+		
+		out <- "x is NULL"
+	
+	} else {
+		
+		out <- x
+	} 
+	
+	###out <- x
 
 	return(out)
 	

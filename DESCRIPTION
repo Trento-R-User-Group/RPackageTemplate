@@ -1,0 +1,11 @@
+Package: RPackageTemplate
+Maintainer:Emanuele Cordano <emanuele.cordano@gmail.com>
+License: GPL (>= 2)
+Title: R Package Template
+Type: Package
+Author:Emanuele Cordano
+Description: A basic template for an  R package of my work
+Version: 0.3
+Date: 2017-05-25
+Repository: Github
+RoxygenNote: 5.0.1
