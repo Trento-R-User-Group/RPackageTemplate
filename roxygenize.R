@@ -25,7 +25,7 @@ library(roxygen2)
 options(repos = c(CRAN="http://cran.r-project.org"))
 
 
-path <- "/home/ecor/Dropbox/R-packages" 
+path <- "<ABSOLOTE_PATH>/R-packages" 
 pkg_name <- "RPackageTemplate"
 pkg_dir <- paste(path,pkg_name,sep="/")
 cran_pkg_path <- paste(path,"toCran",sep="/")
